@@ -1,0 +1,16 @@
+该logo包含Rx logo和Rx uboot
+
+Rx logo ：
+	0x000000 ~ 0x6ca1F  （不含0x10偏移）
+
+中间填充：
+	0x00
+
+Rx uboot：
+	0x06CC00 ~ 0x072A95 （不含0x10偏移）
+
+中间填充：
+	0xFF   (uboot大小必须是8的倍数)
+
+uboot ver：
+	0x072AA0 ~ 0x072AA3   （不含0x10偏移）
